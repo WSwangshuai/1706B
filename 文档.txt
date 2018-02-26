@@ -1,0 +1,9 @@
+1、touch a.txt 创建一个a.txt的文档
+2、vim a.txt 编辑文件
+   首先进入编辑模式 --
+   书写内容结束  --按esc键 ->按:wq -> 回车
+    cat a.txt
+3、git init 初始化文件夹 类似于将此文件夹托管
+4、git status  查看本地仓库文件状态(是否被提交上去)
+5、git add a.txt 将文件托管到暂存区  如果使用git status查看文件名变成绿色表示成功
+6、git commit -m "这是王帅进行的操作"
